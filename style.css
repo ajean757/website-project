@@ -1,7 +1,9 @@
 h1 {
-	font-family: "Segoe UI";
+	font-family: "Open Sans";
 	text-align: center;
 	font-size: 400;
 	font-weight: 100;
 
 }
+firstAndLast(String str) {
+return str.charAt(0)+str.charAt(str.length()-1);
